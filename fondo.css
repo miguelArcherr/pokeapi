@@ -1,0 +1,37 @@
+.body {
+    background-image: url(imagenes/fondobarse/fondo2.jpeg); /*agregue su img*/
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+header{
+    background-image: url(imagenes/fondobarse/fondo1.jpeg); /*agregue su img*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.fondo_inicio{
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.transparente {
+    background-color: rgba(0, 0, 0, 0);
+}
+footer{
+    background-image: url(imagenes/fondobarse/fondo1.jpeg); /*agregue su img*/
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.registro_c,#terminosycondiciones,#condicionesP{
+    background-image: url(imagenes/fondo_registro/fondo1.jpeg);
+}
+
+.fondo_result{
+background-color: rgb(156, 224, 215);
+
+}

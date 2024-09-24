@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cintas metricas</title>
+    <link rel="stylesheet" href="style.css">     
+    <link rel="stylesheet" href="fondo.css"> <!--fondo de la pagina-->
+</head>
+
+<body class="body">
+    <header>
+        <nav>
+            <a class="hd" href="#fondo_inicio"> inicio</a>
+            <a class="hd" href="#registro"> registrarse</a>
+            <a class="hd" href="#zone_comentarios"> comentarios y beneficios</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <div class="registro" id="registro">
+                <div class="registro_c">
+                    <h1 class="pp2">POKEDEX</h1>
+                    <div class="tb2div">
+                        <p class="pp"><b>ID de su pokemon</b></p>
+                        <input id="pokemonId" class="tb tb2" type="text" placeholder="id pokemon" autocomplete="off">
+                    </div>
+                    <div>
+                        <button class="bt" id="buscar">buscar</button>
+                    </div>
+                    <div id="result" class="fondo_result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <nav>
+            <a class="hd" href="#" id="btnatyc"> términos y condiciones</a>
+            <a class="hd" href="#" id="btnacp"> privacidad</a>
+            <a class="hd siguenos" href="#" id="siguenos"> síguenos</a>
+        </nav>
+    </footer>
+
+    <script src="funcion.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        padding: 10px 20px; 
+        position: sticky; 
+        top: 0;
+        width: 100%;
+        z-index: 1; 
+        background-color: black;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .hd {
+        display: inline-block;
+        margin: 0 10px;
+        text-decoration: none;
+        color: #ff0000;
+        transition: all 0.3s ease-in-out;
+        font-size: 20px;
+    }
+
+    .hd:hover {
+        color: #945785; 
+        transform: scale(1.1);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 0;
+    }
+
+
+
+    .registro_c {
+        text-align: center;
+        margin: 0;
+        border-radius: 15px;
+        height: 500px;
+        width: 340px;
+    }
+
+    .bt {
+        margin: 10px;  
+        width: 140px;
+        height: 40px;
+    }
+
+    .pp {
+        color: #1d0ee7;
+    }
+
+    .pp2 {
+        color: #ff0000;
+    }
+
+    .tb {
+        margin-top: 3px;
+        margin-left: 25px;
+    }
+
+    .tb2 {
+        width: 290px;
+        height: 40px;
+    }
+
+    .result {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #e7f3fe;
+        border: 1px solid #b3d4fc;
+        border-radius: 5px;
+    }
+
+    .result img {
+        max-width: 100px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .main {
+        flex: 1; 
+        padding: 0px;
+        margin-top: 0;
+        overflow-y: auto;
+        box-sizing: border-box;
+        justify-content: center;
+    }
